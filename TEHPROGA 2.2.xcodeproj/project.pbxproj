@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321D84DC2382A8FB0045EB23 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321D84DB2382A8FB0045EB23 /* main.cpp */; };
+		321D84E42382A9E40045EB23 /* arr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321D84E22382A9E40045EB23 /* arr.cpp */; };
+		321D84E9238529950045EB23 /* Aeroflot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321D84E8238529950045EB23 /* Aeroflot.cpp */; };
+		321D84EC238583F70045EB23 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321D84EA238583F70045EB23 /* Exception.cpp */; };
+		328E506B2385F04B00F8CADC /* reverse_sentences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 328E50692385F04B00F8CADC /* reverse_sentences.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		321D84D62382A8FB0045EB23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		321D84D82382A8FB0045EB23 /* TEHPROGA 2.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TEHPROGA 2.2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		321D84DB2382A8FB0045EB23 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		321D84E22382A9E40045EB23 /* arr.cpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.cpp; path = arr.cpp; sourceTree = "<group>"; };
+		321D84E32382A9E40045EB23 /* arr.hpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.h; path = arr.hpp; sourceTree = "<group>"; };
+		321D84E62382A9F20045EB23 /* Aeroflot.hpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.h; path = Aeroflot.hpp; sourceTree = "<group>"; };
+		321D84E8238529950045EB23 /* Aeroflot.cpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.cpp; path = Aeroflot.cpp; sourceTree = "<group>"; };
+		321D84EA238583F70045EB23 /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		321D84EB238583F70045EB23 /* Exception.hpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.h; path = Exception.hpp; sourceTree = "<group>"; };
+		328E50692385F04B00F8CADC /* reverse_sentences.cpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_sentences.cpp; sourceTree = "<group>"; };
+		328E506A2385F04B00F8CADC /* reverse_sentences.hpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.h; path = reverse_sentences.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		321D84D52382A8FB0045EB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321D84CF2382A8FB0045EB23 = {
+			isa = PBXGroup;
+			children = (
+				321D84DA2382A8FB0045EB23 /* TEHPROGA 2.2 */,
+			);
+			sourceTree = "<group>";
+		};
+		321D84D92382A8FB0045EB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				321D84D82382A8FB0045EB23 /* TEHPROGA 2.2 */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		321D84DA2382A8FB0045EB23 /* TEHPROGA 2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				328E50682385EFED00F8CADC /* Second task */,
+				328E50672385EFD600F8CADC /* First task */,
+				321D84EA238583F70045EB23 /* Exception.cpp */,
+				321D84EB238583F70045EB23 /* Exception.hpp */,
+				321D84DB2382A8FB0045EB23 /* main.cpp */,
+				321D84D92382A8FB0045EB23 /* Products */,
+			);
+			path = "TEHPROGA 2.2";
+			sourceTree = "<group>";
+		};
+		328E50672385EFD600F8CADC /* First task */ = {
+			isa = PBXGroup;
+			children = (
+				321D84E22382A9E40045EB23 /* arr.cpp */,
+				321D84E32382A9E40045EB23 /* arr.hpp */,
+				321D84E62382A9F20045EB23 /* Aeroflot.hpp */,
+				321D84E8238529950045EB23 /* Aeroflot.cpp */,
+			);
+			name = "First task";
+			sourceTree = "<group>";
+		};
+		328E50682385EFED00F8CADC /* Second task */ = {
+			isa = PBXGroup;
+			children = (
+				328E50692385F04B00F8CADC /* reverse_sentences.cpp */,
+				328E506A2385F04B00F8CADC /* reverse_sentences.hpp */,
+			);
+			name = "Second task";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		321D84D72382A8FB0045EB23 /* TEHPROGA 2.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321D84DF2382A8FB0045EB23 /* Build configuration list for PBXNativeTarget "TEHPROGA 2.2" */;
+			buildPhases = (
+				321D84D42382A8FB0045EB23 /* Sources */,
+				321D84D52382A8FB0045EB23 /* Frameworks */,
+				321D84D62382A8FB0045EB23 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TEHPROGA 2.2";
+			productName = "TEHPROGA 2.2";
+			productReference = 321D84D82382A8FB0045EB23 /* TEHPROGA 2.2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		321D84D02382A8FB0045EB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Артем Шарапов";
+				TargetAttributes = {
+					321D84D72382A8FB0045EB23 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 321D84D32382A8FB0045EB23 /* Build configuration list for PBXProject "TEHPROGA 2.2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 321D84CF2382A8FB0045EB23;
+			productRefGroup = 321D84D92382A8FB0045EB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				321D84D72382A8FB0045EB23 /* TEHPROGA 2.2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		321D84D42382A8FB0045EB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328E506B2385F04B00F8CADC /* reverse_sentences.cpp in Sources */,
+				321D84DC2382A8FB0045EB23 /* main.cpp in Sources */,
+				321D84EC238583F70045EB23 /* Exception.cpp in Sources */,
+				321D84E9238529950045EB23 /* Aeroflot.cpp in Sources */,
+				321D84E42382A9E40045EB23 /* arr.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		321D84DD2382A8FB0045EB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		321D84DE2382A8FB0045EB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		321D84E02382A8FB0045EB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXRT99T9T4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		321D84E12382A8FB0045EB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXRT99T9T4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		321D84D32382A8FB0045EB23 /* Build configuration list for PBXProject "TEHPROGA 2.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321D84DD2382A8FB0045EB23 /* Debug */,
+				321D84DE2382A8FB0045EB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		321D84DF2382A8FB0045EB23 /* Build configuration list for PBXNativeTarget "TEHPROGA 2.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321D84E02382A8FB0045EB23 /* Debug */,
+				321D84E12382A8FB0045EB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 321D84D02382A8FB0045EB23 /* Project object */;
+}
