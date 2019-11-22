@@ -27,3 +27,15 @@ int Exception::trouble_with_log_file(){
     cout<<"Проблемы с лог-файлом"<<endl;
     return 0;
 }
+int Exception::zero_lenght_string_exc(){
+    cout<<"Входной текст отсутствует или анализируема последовательность пуста"<<endl;
+    return 0;
+}
+int Exception::no_sentences_exc(){
+    cout<<"Во входном файле нет предложений"<<endl;
+    return 0;
+}
+int Exception::false_mode_src(){
+    cout<<"Неправильно введено число"<<endl;
+    return 0;
+}

@@ -13,4 +13,7 @@ public:
     int empty_exc();
     int object_doesnt_exist_exc();
     int trouble_with_log_file();
+    int zero_lenght_string_exc();
+    int no_sentences_exc();
+    int false_mode_src();
 };

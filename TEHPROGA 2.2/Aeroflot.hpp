@@ -42,6 +42,8 @@ public:
     string getNumber();
     string getType();
     
+    void getDataFromKeyboard();
+    
     Aeroflot();
     Aeroflot(const Aeroflot& init);
     Aeroflot (string dest,string num,string type);

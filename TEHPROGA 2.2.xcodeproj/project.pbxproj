@@ -12,6 +12,7 @@
 		321D84E9238529950045EB23 /* Aeroflot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321D84E8238529950045EB23 /* Aeroflot.cpp */; };
 		321D84EC238583F70045EB23 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 321D84EA238583F70045EB23 /* Exception.cpp */; };
 		328E506B2385F04B00F8CADC /* reverse_sentences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 328E50692385F04B00F8CADC /* reverse_sentences.cpp */; };
+		328E506D2387D2E400F8CADC /* check_funcs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 328E506C2387D2E400F8CADC /* check_funcs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		321D84EB238583F70045EB23 /* Exception.hpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.h; path = Exception.hpp; sourceTree = "<group>"; };
 		328E50692385F04B00F8CADC /* reverse_sentences.cpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_sentences.cpp; sourceTree = "<group>"; };
 		328E506A2385F04B00F8CADC /* reverse_sentences.hpp */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.cpp.h; path = reverse_sentences.hpp; sourceTree = "<group>"; };
+		328E506C2387D2E400F8CADC /* check_funcs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = check_funcs.cpp; sourceTree = "<group>"; };
+		328E506E2387D31400F8CADC /* check_funcs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = check_funcs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +72,9 @@
 		321D84DA2382A8FB0045EB23 /* TEHPROGA 2.2 */ = {
 			isa = PBXGroup;
 			children = (
+				328E506F2387D40300F8CADC /* Exception */,
 				328E50682385EFED00F8CADC /* Second task */,
 				328E50672385EFD600F8CADC /* First task */,
-				321D84EA238583F70045EB23 /* Exception.cpp */,
-				321D84EB238583F70045EB23 /* Exception.hpp */,
 				321D84DB2382A8FB0045EB23 /* main.cpp */,
 				321D84D92382A8FB0045EB23 /* Products */,
 			);
@@ -95,8 +97,19 @@
 			children = (
 				328E50692385F04B00F8CADC /* reverse_sentences.cpp */,
 				328E506A2385F04B00F8CADC /* reverse_sentences.hpp */,
+				328E506C2387D2E400F8CADC /* check_funcs.cpp */,
+				328E506E2387D31400F8CADC /* check_funcs.h */,
 			);
 			name = "Second task";
+			sourceTree = "<group>";
+		};
+		328E506F2387D40300F8CADC /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				321D84EA238583F70045EB23 /* Exception.cpp */,
+				321D84EB238583F70045EB23 /* Exception.hpp */,
+			);
+			name = Exception;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +170,7 @@
 			files = (
 				328E506B2385F04B00F8CADC /* reverse_sentences.cpp in Sources */,
 				321D84DC2382A8FB0045EB23 /* main.cpp in Sources */,
+				328E506D2387D2E400F8CADC /* check_funcs.cpp in Sources */,
 				321D84EC238583F70045EB23 /* Exception.cpp in Sources */,
 				321D84E9238529950045EB23 /* Aeroflot.cpp in Sources */,
 				321D84E42382A9E40045EB23 /* arr.cpp in Sources */,

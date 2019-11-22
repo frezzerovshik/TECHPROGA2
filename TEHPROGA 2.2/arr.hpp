@@ -20,11 +20,12 @@ public:
     ~arr();
     
     Aeroflot& operator[](unsigned int index);
-    void operator+=(Aeroflot obj);
-    void operator-=(Aeroflot obj);
+    void operator+=(Aeroflot &obj);
+    void operator-=(Aeroflot &obj);
+    void operator-=(int index);
     void sort();
     unsigned short search(Aeroflot obj);
-    unsigned short search(string quest);
+    void search(string quest);
     void print();
     void print(unsigned short index_of_needed_object);
     unsigned short size();

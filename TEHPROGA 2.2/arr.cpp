@@ -70,7 +70,7 @@ arr::~arr(){
 Aeroflot& arr :: operator[](unsigned int index){
     return mas[ index ];
 }
-void arr :: operator+=(Aeroflot obj){
+void arr :: operator+=(Aeroflot &obj){
     if(isEmpty()){
         mas = new Aeroflot[1];
         mas[0] = obj;
@@ -92,10 +92,26 @@ bool arr :: isEmpty(){
     else
         return false;
 }
-void arr:: operator-=(Aeroflot obj){
+void arr:: operator-=(Aeroflot &obj){
     if(isEmpty())
         throw empty_exc();
     unsigned short index = this->search(obj);
+    Aeroflot* temporary = new Aeroflot[_size];
+    for (unsigned short i = 0; i < _size; ++i)
+        temporary[i] = mas[i];
+    delete[] mas;
+    mas = new Aeroflot[_size-1];
+    for (unsigned short i = 0, j = 0; i < _size; ++i, ++j)
+        if (i != index) mas[j] = temporary[i];
+        else
+            --j;
+    --_size;
+    delete[] temporary;
+    return;
+}
+void arr::operator-=(int index){
+    if(isEmpty())
+        throw empty_exc();
     Aeroflot* temporary = new Aeroflot[_size];
     for (unsigned short i = 0; i < _size; ++i)
         temporary[i] = mas[i];
@@ -114,8 +130,10 @@ void arr :: print(){
     if(isEmpty())
         throw empty_exc();
     sort();
-    for ( int i = 0; i < _size; ++i )
+    for ( int i = 0; i < _size; ++i ){
+        cout<<"["<<i<<"]"<<endl;
         mas[i].print();
+    }
 }
 void arr :: print(unsigned short index_of_needed_object){
     if(index_of_needed_object>=_size)
@@ -139,22 +157,19 @@ unsigned short arr :: search(Aeroflot obj){
         throw not_found_exc();
     else return res_index;
 }
-unsigned short arr :: search(string quest){
+void arr :: search(string quest){
     if(isEmpty())
         throw empty_exc();
-    unsigned short res_index = NULL;
     bool flag  = false;
     for(unsigned short i = 0; i < _size ; i++){
         if(mas[i].getType().compare(quest)){
-            res_index = i;
+            mas[i].print();
             flag = true;
         }
     }
     if(flag == false){
         throw not_found_exc();
     }
-    else
-        return res_index;
 }
 #pragma mark - size and sort
 unsigned short arr::size(){

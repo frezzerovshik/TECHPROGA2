@@ -11,4 +11,6 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+
 void reverse_sentences(std::ifstream &init);
+std::string get_sentence(unsigned long start, unsigned long end,const char* str);

@@ -82,6 +82,7 @@ bool Aeroflot::operator==(Aeroflot obj){
         return true;
     else
         return false;
+    
 }
 #pragma mark - getters
 string Aeroflot::getDestination(){
@@ -92,6 +93,15 @@ string Aeroflot::getNumber(){
 }
 string Aeroflot::getType(){
     return type;
+}
+void Aeroflot::getDataFromKeyboard(){
+    cin.ignore(10000,'\n');
+    cout<<"Введите пункт назначения"<<endl;
+    getline(cin,destination);
+    cout<<"Введите номер рейса"<<endl;
+    getline(cin,number);
+    cout<<"Введите тип воздухоплавательного судна"<<endl;
+    getline(cin,type);
 }
 #pragma mark - setters
 void Aeroflot::setDestination(string init){
